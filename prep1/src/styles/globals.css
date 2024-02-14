@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary: #4c5fd5;
+  --secondary: #dadbf1;
+  --dark: #000000;
+  --light: #fff;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+#sample-head {
+  height: 3em;
+  padding-left: 4em;
+  padding-right: 4em;
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+}
+#sample-head h1 {
+  font-size: 1.2em;
+  font-weight: 300;
+  float: left;
+}
+#header-buttons {
+  padding-left: 50%;
+  align-items: center;
+  height: 100%;
+}
+#header-buttons button {
+  margin-top: 0.7em;
+  height: 60%;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 0.3em;
+  color: #fff;
+  cursor: pointer;
+}
+#submit-req {
+  background-color: #000000;
+  border-color: #fff;
+  border-width: 1px;
+}
+#sign-in {
+  margin-left: 1em;
+  background-color: #4c5fd5;
+  border: none;
+}
+#hero {
+  margin: 0;
+  background-color: #dadbf1;
+  height: 40vh;
+}
+#search-cta {
+  background-color: #fff;
+  border: none;
+}
+#hero h1 {
+  text-align: center;
+  font-size: 3em;
+  padding-top: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-weight: 300;
+}
+#hero div {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 50%;
+  height: 2em;
+  margin: 0 auto;
+}
+#hero div input {
+  margin: 0.5em;
+  border: none;
+  width: 50%;
+}
